@@ -11,16 +11,6 @@ function App() {
       id:nanoid(),
       text:"First Note",
       date:"8/4/22"
-    },
-    {
-      id:nanoid(),
-      text:"Second Note",
-      date:"9/4/22"
-    },
-    {
-      id:nanoid(),
-      text:"Third Note",
-      date:"10/4/22"
     }
   
   ])
