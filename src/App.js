@@ -57,7 +57,7 @@ function App() {
       <div className="container">
       <Header handleToggleDarkMode={setDarkMode}/>
       <Search handleSearchNote={setSearchText}/>
-      <NoteList notes={notes.filter((note)=>note.text.toLowerCase().includes(searchText.toLowerCase()))} 
+      <NoteList notes={notes.filter((note)=>note.text.toLowerCase().includes(searchText))} 
       handleAddNote={addNote} 
       handleDeleteNote={deleteNote}/>
       </div>
